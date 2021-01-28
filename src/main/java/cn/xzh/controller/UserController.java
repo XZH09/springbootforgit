@@ -20,7 +20,9 @@ public class UserController {
     @RequestMapping("/hello")
     public Object sayHello() {
         logger.debug("这是个hello的日志");
-        return "hello v0.6 -master update";
+
+        return "hello v0.7 -master update  --merge合并分支";
+
     }
 
     @RequestMapping("/login")
